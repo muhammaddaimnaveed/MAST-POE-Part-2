@@ -2,8 +2,8 @@ import React from 'react';
 import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native';
 
 
-/* This Screen Contains the splash screen on the app which conatins the restuarants name, chef's name and restuarants logo.   */
- 
+/* This Screen Contains the splash screen on the app which conatins the restuarants name, chef's name and the restuarants logo.   */
+
 type Props = {
   navigation: any; 
 };
