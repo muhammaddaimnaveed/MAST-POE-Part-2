@@ -205,7 +205,15 @@ const styles = StyleSheet.create({
     fontSize: 30,
     fontWeight: 'bold',
     bottom:32,
-    left:20, },
+    left:20, }, 
+
+
+    text: {
+      fontSize: 22,
+      fontWeight: 'bold',
+      bottom:32,
+      left:20, }, 
+   
  
   dishCounter: {
     fontSize: 20,
