@@ -1,6 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { StyleSheet, View, Text, ScrollView, Image, TouchableOpacity } from 'react-native';
 
+
+/* This Screen Contains the dishes that the chef has put in the menu for customers to view.
+  This screen consists of a dish containers that include the image, name, price and description
+  of  the dishes the chef has put in and allows customers to order by clicking the order button.   */ 
+
 interface Dish {
   imageUri: string;
   dishName: string;
@@ -206,14 +211,6 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     bottom:32,
     left:20, }, 
-
-
-    text: {
-      fontSize: 22,
-      fontWeight: 'bold',
-      bottom:32,
-      left:20, }, 
-   
  
   dishCounter: {
     fontSize: 20,
